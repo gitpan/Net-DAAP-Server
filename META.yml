@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name: Net-DAAP-Server
-version: 0.01
+version: 0.02
 author:
   - Richard Clamp <richardc@unixbeard.net>
 abstract: Provide a DAAP Server
@@ -18,7 +18,7 @@ build_requires:
 provides:
   Net::DAAP::Server:
     file: lib/Net/DAAP/Server.pm
-    version: 0.01
+    version: 0.02
   Net::DAAP::Server::Track:
     file: lib/Net/DAAP/Server/Track.pm
 generated_by: Module::Build version 0.25
